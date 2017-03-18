@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #ccc;
+}
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: gray;
+}
+.header ul {
+	float: right;
+}
+.header ul li{
+	float: left;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.header ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.contain{
+	float: left;	
+	margin-right: 420px;
+}
+.artical{
+	background-color: #fff;
+	margin: 20px;
+	padding: 20px;
+}
+.artical h1,
+.artical h2,
+.artical p{
+	margin: 10px 0;
+}
+.indent{
+	text-indent: 2em;
+}
+.sidebar{
+	background-color: #fff;
+	position: absolute;
+	width: 400px;
+	right: 0;
+
+	margin: 20px 20px 20px 0;
+
+}
+
+.sidebar form{
+	padding: 20px;
+}
+#confirm{
+	display: block;
+	background-color: #ccc;
+	border: none;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.arround{
+	clear: both;
+	margin: 20px;
+	margin-right: 440px;
+	padding: 20px;
+	background-color: #fff;
+}
+.pic{
+	margin: 10px 10px 10px 0;
+	display: inline-block;
+	border: 1px solid gray;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	padding: 5px;
+}
+.pic p{
+	margin: 10px 0;
+}
+.window{
+	width: 100px;
+	height: 100px;	
+}
