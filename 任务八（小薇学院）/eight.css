@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrap{
+	//width: 100%;
+	margin:10px;
+	background-color: #CCC;
+}
+.col-4{
+	float: left;
+	height: 50px;
+	width: 33.3333%;
+	margin-top: 20px;	
+}
+.col-3{
+	float: left;
+	height: 50px;
+	width: 25%;	margin-top: 20px;
+}
+.col-6{
+	float: left;
+	height: 50px;
+	width: 50%;	margin-top: 20px;
+}
+.content{
+	margin: 10px;
+	height: 50px;
+	background-color: red;
+}
